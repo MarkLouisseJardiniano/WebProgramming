@@ -342,15 +342,16 @@ nav{
 .nav-links{
   position: fixed;
   background: #050505;
-  height: 1000px;
+  height: 100vh;
+  justify-content: center;
   width: 100%;
   flex-direction: column;
   clip-path: circle(50px at 90% -20%);
   -webkit-clip-path: circle(50px at 90% -10%);
   transition: all 1s ease-out;
   pointer-events: none;
-  top: -260px;
   left: 0;
+  top: 0;
 }
 .nav-links.open{
   clip-path: circle(1000px at 90% -10%);
