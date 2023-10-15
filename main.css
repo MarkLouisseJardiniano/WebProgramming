@@ -78,9 +78,6 @@ nav{
   font-weight: bold;
   color: #3D2892;
 }
-.nav-links li a:hover {
-  color: #61DAFB;
-}
 .nav-links li {
   position: relative;
   font-size: 18px;
@@ -268,7 +265,7 @@ nav{
   align-items: center;
   text-align: center;
   color: #fff;
-  top: 350px;
+  top: 370px;
 }
 .waves-content h1 {
   font-size: 64px;
@@ -307,7 +304,7 @@ nav{
   align-items: center;
   position: absolute;
   font-size: 18px;
-  top: 480px;
+  top: 500px;
 }
 
 @media screen and (max-width: 768px){
@@ -408,10 +405,12 @@ transform: rotate(45deg) translate(-5px,-6px);
 .hero {
   display: flex;
   flex-direction: column;
+  gap: 80px;
 }
 .pumpkin img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
+  margin-left: 60px;
 }
 .stories h2{
   align-items: center;
@@ -488,12 +487,12 @@ transform: rotate(45deg) translate(-5px,-6px);
   top: 370px;
 }
 }
-@media screen and (min-width:769px) and (max-width:1200px){
+@media screen and (min-width:769px) and (max-width:1070px){
   .nav-links {
     gap: 20px;
   }
   .text-content{
-    width: 230px;
+    width: 300px;
   }
   .stories-content{
     padding: 0 0px;
@@ -505,7 +504,7 @@ transform: rotate(45deg) translate(-5px,-6px);
     gap: 0px;
   }
   .authors-content{
-    width: 250px;
+    width: 300px;
   }
   .authors-content p{
     width: 250px;
@@ -537,12 +536,12 @@ transform: rotate(45deg) translate(-5px,-6px);
     border-radius: 3px;
   }
   .input-text{
-    height: 10px;
+    height: 30px;
   }
   .input-color {
     background-color: #3D2892;
     border: none;
-    height: 20px;
+    height: 30px;
     width: 80px;
     font-weight: bold;
     color: #FFFAFB;
@@ -561,7 +560,52 @@ transform: rotate(45deg) translate(-5px,-6px);
 }
 
 
-@media  screen and (min-width:400px) and (max-width:600px){
+@media  screen and (min-width:360px) and (max-width:600px){
+header {
+  background-color: #050505; 
+  color: #3D2892; 
+  padding: 20px 40px; 
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 10px;
+}
+.landing{
+  padding: 0 60px 0 50px;
+}
+.landing h1 {
+    font-size: 64px;
+    margin-bottom: 40px;
+
+}
+.landing h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #3D2892;
+    font-weight: 300;
+}
+.landing a{
+    text-decoration-line: none;
+    padding: 6px 20px;
+    background-color: #3D2892;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+.pumpkin img{
+  margin-left: 40px;
+}
+.pumpkin img{
+    width: 300px;
+    height: 300px;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
   .waves{
     position: relative;
   }
