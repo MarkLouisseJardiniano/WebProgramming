@@ -503,11 +503,12 @@ transform: rotate(45deg) translate(-5px,-6px);
   .authors-flex {
     gap: 0px;
   }
-  .authors-content{
+  .authors-content figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 300px;
-  }
-  .authors-content p{
-    width: 250px;
+    gap: 0;
   }
   .waves{
     position: relative;
@@ -539,8 +540,6 @@ transform: rotate(45deg) translate(-5px,-6px);
     height: 30px;
   }
   .input-color {
-    background-color: #3D2892;
-    border: none;
     height: 30px;
     width: 80px;
     font-weight: bold;
@@ -593,9 +592,6 @@ header {
     border-radius: 5px;
     color: #fff;
     font-size: 18px;
-}
-.pumpkin img{
-  margin-left: 40px;
 }
 .pumpkin img{
     width: 300px;
