@@ -87,8 +87,6 @@ nav{
 .nav-links li a:hover::before{
   width: 80%;
 }
-
-
 .hero{
     display: flex;
     justify-content: space-between;
@@ -557,7 +555,7 @@ transform: rotate(45deg) translate(-5px,-6px);
     align-items: center;
     position: absolute;
     font-size: 18px;
-    top: 410px;
+    top: 380px;
   }
 }
 
