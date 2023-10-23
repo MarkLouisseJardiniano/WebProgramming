@@ -10,6 +10,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
   }
   body {
     background-color: #050505;
@@ -92,6 +93,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 90px 10px;
+    
 }
 .landing{
   padding: 0 60px 0 120px;
@@ -122,6 +124,7 @@ nav{
 .pumpkin img{
     width: 300px;
     height: 300px;
+    transition: 2s all linear;
 }
 .stories h2{
   text-align: center;

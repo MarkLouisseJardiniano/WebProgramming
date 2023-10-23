@@ -13,6 +13,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="icon" href="images/landing-image.png">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <title>spookify</title>
 </head>
@@ -21,7 +22,7 @@
     <header>
         
         <nav>
-            <div class="logo">
+            <div class="logo" data-aos="fade-right">
             <p>spook<span>ify.</span></p>
         </div>
             <div class="hamburger">
@@ -30,54 +31,54 @@
                 <div class="line3"></div>
             </div>
             <ul class="nav-links">
-                <li>Stories</li>
-                <li>Authors</li>
-                <li>Contact</li>
-                <a href="#">Sign Up</a>
+                <li  data-aos-duration="450" data-aos="fade-down">Stories</li>
+                <li  data-aos-duration="600" data-aos="fade-down">Authors</li>
+                <li  data-aos-duration="850" data-aos="fade-down">Contact</li>
+                <a href="#"data-aos-duration="1000" data-aos="fade-down">Sign Up</a>
             </ul>
         </nav>
     </header>
     <main>
         <section class="hero">
-            <div class="landing">
+            <div class="landing" data-aos-duration="650" data-aos="fade-right">
                 <h1>Tales of the Undead</h1>
                 <h2>Scare yourself, scare your friends, <br>for all we care</h2>
                 <a href="#">Get Started</a>
             </div>
-            <figure class="pumpkin">
+            <figure class="pumpkin" data-aos-duration="650" data-aos="fade-left">
                 <img src="images/landing-image.png" alt="Pumpkin Image">
             </figure>
         </section>
         <section class="stories">
-            <h2>Top Stories</h2>
+            <h2 data-aos-duration="600" data-aos="fade-right">Top Stories</h2>
             <div class="stories-flex">
                 <div class="stories-content">
-                    <figure class="image-bg">
-                        <div class="bg-orange">
+                    <figure class="image-bg" data-aos="fade-right">
+                        <div class="bg-orange" >
                         <img src="images/paramdam.png" alt="Top Story - Paramdam">
                     </div>
                     </figure>
                     <div class="text-content">
-                    <h3>Paramdam</h3>
-                    <p>Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
+                    <h3 data-aos-duration="300" data-aos="fade-left">Paramdam</h3>
+                    <p data-aos-duration="600" data-aos="fade-left">Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
                         pinto nun, pag bukas ng pinto nakita nya daw si papa naka upo dun sa pwesto nys ng pinag
                         iinuman. Iyak ng iyak ate ko nun, kwento ng lola ko na hindi na rin nakapag tinda dahil sa
                         takot.
                         <br>
                         <br>
                         Kinabukasan, dun na rin ako natulog samin pero sumama pa rin pinsan ko dahil sa takot. </p>
-                        <p class="readmore-orange">Read More...</p>
+                        <p data-aos-duration="800" data-aos="fade-up" class="readmore-orange">Read More...</p>
                     </div>
                     </div>
                 <div class="stories-content-reverse">
-                    <figure class="image-bgs">
+                    <figure class="image-bgs" data-aos="fade-left">
                         <div class="image-blue">
                         <img src="images/senyales.png" alt="Top Story - Senyales">
                     </div>
                     </figure>
                     <div class="text-content-reverse">
-                    <h3>Senyales</h3>
-                    <p>Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
+                    <h3 data-aos-duration="300" data-aos="fade-right">Senyales</h3>
+                    <p data-aos-duration="600" data-aos="fade-right">Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
                         tinatrabahoan namin at may patay isa nabaril raw. May damage rin ang store na pinagtrabahoan
                         namin.
                         <br>
@@ -85,36 +86,36 @@
                         Sobrang kabog ng dibdib ko dahil kung hindi lang ako sinabihan ng mag inang yun, siguro ako yung
                         nabiktima nung gabing yun, laking pasasalamat ko sa mag inang yun, sinubukan ko silang hanapin
                         pero hindi ko mahanap.</p>
-                        <p class="readmore-orange">Read More...</p>
+                        <p data-aos-duration="800" data-aos="fade-up" class="readmore-orange">Read More...</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="authors">
-            <h2>Top Authors</h2>
+            <h2 data-aos-duration="600" data-aos="fade-left">Top Authors</h2>
             <div class="authors-flex">
                 <div class="authors-content">
                     <figure>
-                        <img src="images/author-cris.png" alt="Top Author #1">
-                        <h3>Cris James</h3>
-                        <p>Story: Paramdam</p>
-                            <p>Published: 2022</p>
+                        <img data-aos-duration="600" data-aos="fade-right" src="images/author-cris.png" alt="Top Author #1">
+                        <h3 data-aos-duration="600" data-aos="fade-right">Cris James</h3>
+                        <p data-aos-duration="800" data-aos="fade-up">Story: Paramdam</p>
+                            <p data-aos-duration="800" data-aos="fade-up">Published: 2022</p>
                     </figure>
                 </div>
                 <div class="authors-content">
                     <figure>
-                        <img src="images/author-katie.png" alt="Top Author #2">
-                        <h3>Katie Kim</h3>
-                            <p>Story: Senyales</p>
-                            <p>Published: 2009</p>
+                        <img  data-aos-duration="600" data-aos="fade-down" src="images/author-katie.png" alt="Top Author #2">
+                        <h3 data-aos-duration="600" data-aos="fade-up">Katie Kim</h3>
+                            <p data-aos-duration="800" data-aos="fade-up">Story: Senyales</p>
+                            <p data-aos-duration="800" data-aos="fade-up">Published: 2009</p>
                     </figure>
                 </div>
                 <div class="authors-content">
                     <figure>
-                        <img src="images/author-scarlette.png" alt="Top Author #3">
-                        <h3>Scarlette Dickinson</h3>
-                        <p>Story: Halik sa Itim </p>
-                        <p>Published: 2022</p>
+                        <img data-aos-duration="600" data-aos="fade-left" src="images/author-scarlette.png" alt="Top Author #3">
+                        <h3 data-aos-duration="600" data-aos="fade-left">Scarlette Dickinson</h3>
+                        <p data-aos-duration="800" data-aos="fade-up">Story: Halik sa Itim </p>
+                        <p data-aos-duration="800" data-aos="fade-up">Published: 2022</p>
                     </figure>
                 </div>
             </div>
@@ -123,14 +124,14 @@
             <div class="waves">
                 <img src="images/waves.png" alt="">
             <div class="waves-content">
-                <h1>Dare to Spookify?</h1>
+                <h1 data-aos-duration="600" data-aos="fade-right">Dare to Spookify?</h1>
                 <div class="input-flex">
-                <input class="input-text" type="text" placeholder="Enter your Email Address">
-                <input class="input-color" type="submit" value="Spook Us">
+                <input data-aos-duration="600" data-aos="fade-left" class="input-text" type="text" placeholder="Enter your Email Address">
+                <input  data-aos-duration="600" data-aos="fade-left"class="input-color" type="submit" value="Spook Us">
             </div>
             </div>
                 <div class="terms">
-                <p>©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
+                <p data-aos-duration="600" data-aos="fade-up">©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
             </div>
         </div>
         </footer>
@@ -151,6 +152,10 @@
         hamburger.classList.toggle("toggle");
     });
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
     </main>
 </body>
